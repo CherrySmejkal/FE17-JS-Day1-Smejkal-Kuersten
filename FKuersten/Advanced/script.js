@@ -17,3 +17,25 @@ console.log(multiply);
 
 document.write(addition/multiply);
 /* Exercise 1 End */
+
+/* Exercise 2 Start */
+let people = ["Greg" , "Mary" , "Devon" , "James"];
+people.splice(0,1); /* Removes Greg */
+console.log(people);
+/* ['Mary', 'Devon', 'James'] */
+
+people.splice(0,0, "Matt"); /* Add Matt */
+console.log(people);
+/* ['Matt', 'Mary', 'Devon', 'James'] */
+
+people.splice(3,1);
+console.log(people);
+/* ['Matt', 'Mary', 'Devon'] */
+
+people.splice(3,0, "Flo");
+console.log(people);
+/* ['Matt', 'Mary', 'Devon', 'Flo'] */
+
+var people2 = new Array();
+people2 = people.split('Mary Matt');
+console.log(people2);

@@ -15,3 +15,4 @@ let fruit_names = "mango/cherries/kiwi/grapes/pear/peach/orange/lemon";
 var temp = new Array();
 temp = fruit_names.split('/');
 console.log(temp);
+document.write(temp);
