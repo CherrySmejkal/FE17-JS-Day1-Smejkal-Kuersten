@@ -54,6 +54,10 @@ let people3 = ["Greg" , "Mary" , "Devon" , "James"];
 people3.splice(2,1 ,"Elizabeth" , "Anna");
 console.log(people3);
 
+// Adding new variable and assigning values accordingly
+withBob = people3 + ",Bob";
+console.log(withBob)
+
 /* Exercise 2 End */
 
 /* Exercise 3 Start */
