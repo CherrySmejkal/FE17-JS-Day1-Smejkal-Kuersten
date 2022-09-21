@@ -10,3 +10,8 @@ console.log(fruits[0] + fruits[1] + fruits[2]);
 var animals = [" monkey" , " horse" , " dog"];
 console.log(animals[2] , animals[1] , animals[0]);
 console.log("cat" + animals[2] , animals[1] , animals[0]);
+/* Exercise 3 */
+let fruit_names = "mango/cherries/kiwi/grapes/pear/peach/orange/lemon";
+var temp = new Array();
+temp = fruit_names.split('/');
+console.log(temp);
