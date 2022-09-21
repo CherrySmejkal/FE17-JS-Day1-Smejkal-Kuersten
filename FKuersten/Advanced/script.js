@@ -36,6 +36,34 @@ people.splice(3,0, "Flo");
 console.log(people);
 /* ['Matt', 'Mary', 'Devon', 'Flo'] */
 
-var people2 = new Array();
-people2 = people.split('Mary Matt');
-console.log(people2);
+let newArr = people.slice(2)
+console.log(newArr);
+/* Make a copy of the array using slice. The copy should NOT include "Mary" or "Matt". */
+
+let result = people.indexOf("Mary");
+console.log(result);
+/* result 1 */
+/* Using the indexOf method, find the index of where "Mary" is located. */
+
+let result2 = people.indexOf("Foo");
+console.log(result2);
+/* result -1 */
+/* Using the indexOf method, find the index of where "Foo" is located (this should return -1). */
+
+let people3 = ["Greg" , "Mary" , "Devon" , "James"];
+people3.splice(2,1 ,"Elizabeth" , "Anna");
+console.log(people3);
+
+// Adding new variable and assigning values accordingly
+withBob = people3 + ",Bob";
+console.log(withBob)
+
+/* Exercise 2 End */
+
+/* Exercise 3 Start */
+
+let nrarray = [ [1, 2, 1, 24], [8, 11, 9, 4], [7, 0, 7, 27], [7, 4, 28, 14], [3, 10, 25, 7], [21, 4, 6, 17], [3, 5, 26, 3] ];
+console.log(nrarray[1][1] , nrarray[4][2], nrarray[5][3], nrarray[2][3] , nrarray[2][1]);
+/* Select and output the numbers 11, 25, 17, 27 and 0 in the console. */
+
+/* Exercise 3 End */
